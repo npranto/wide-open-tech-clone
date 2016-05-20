@@ -118,6 +118,7 @@ header{
 	justify-content: space-around;
 }
 .equal-size{
+	overflow: auto;
 	padding-top: 125px;
 	background-color: white;
 	width: 25vw;
@@ -218,6 +219,7 @@ header{
 	margin-bottom: 100px;
 }
 .row{
+	overflow: auto;
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
@@ -289,6 +291,7 @@ header{
 	color: rgb(189, 213, 55);
 }
 .right-bars{
+	overflow: auto;
 	width: 40%;
 	display: flex;
 	flex-flow: row;
@@ -304,6 +307,8 @@ header{
 	color: rgb(189, 213, 55);
 }
 .right-bars p{
+	padding-left: 10px;
+	padding-right: 10px;
 	margin: 0px;
 	vertical-align: middle;
 }
