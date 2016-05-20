@@ -1,0 +1,302 @@
+header{
+	width: 100%;
+	overflow: auto;
+}
+.img-background{
+	background-image: url(img/employee-working.jpg);
+	background-repeat: no-repeat;
+	background-size: 100vw 70vh; 
+	height: 70vh;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+}
+.nav-bar{
+	margin: 0 auto;
+	width: 80%;
+	height: 100px;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.logo{
+	width: 100%;
+	line-height: 100px;
+}
+.logo img{
+	vertical-align: middle;
+}
+.bars{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	line-height: 100px;
+	margin-right: 2%;
+}
+.bars a{
+	text-decoration: none;
+	color: white;
+	font-family: "Montserrat";
+	font-size: 18px;
+	vertical-align: middle;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.bars a:hover{
+	border-bottom: 3px solid green;
+}
+
+.wel-learnmore{
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	height: 85%;
+	text-align: center;
+}
+.wel-learnmore h1{
+	overflow: auto;
+	font-size: 60px;
+	color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 6%;
+	margin-bottom: 4%;
+}
+.wel-learnmore a{
+	background-color: transparent;
+	border: 3px solid rgb(189, 213, 55);
+	border-radius: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
+	font-family: "Montserrat";
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(189, 213, 55);
+}
+.wel-learnmore a:hover{
+	background-color: rgb(189, 213, 55);
+	color: gray;
+}
+
+.text-under{
+	width: 50vw;
+	color: gray;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.text-under p{
+	font-size: 30px;
+	margin: 0;
+}
+.border-under{
+	margin-top: 20px;
+	width: 15%;
+    height: 8px;
+    color: rgb(189, 213, 55);
+    border-top: none;
+    background: rgb(189, 213, 55);
+}
+
+.three-row-rect{
+	padding-top: 65px;
+	padding-bottom: 65px;
+	padding-left: 125px;
+	padding-right: 125px;
+	background-color: silver;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+}
+.equal-size{
+	padding-top: 125px;
+	background-color: white;
+	width: 25vw;
+	height: 500px;
+	text-align: center;
+	display: flex;
+	flex-flow: column;
+}
+.equal-size h1{
+	margin: 0px;
+	font-size: 40px;
+	padding-bottom: 5px;
+}
+.equal-size p{
+	font-size: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: gray;
+}
+.equal-size a{
+	font-size: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(189, 213, 55);
+}
+.equal-size a:hover{
+	font-size: 27px;
+	text-decoration: none;
+}
+
+.two-employees-img{
+	background-image: url(img/2employees.jpg);
+	background-size: 100vw 850px;
+	width: 100%;
+	height: 850px;
+}
+
+.how-we-can-help{
+	overflow: auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.how-we-can-help *{
+	margin: 0px;
+	padding: 0px;
+
+}
+.how-we-can-help h1{
+	border-bottom: 5px solid green;
+}
+.how-we-can-help .title{
+	text-align: center;
+	width: 30%;
+	margin-top: 100px;
+	margin-bottom: 100px;	
+}
+.how-we-can-help .details{
+	width: 15%;
+	margin-top: 100px;
+	font-size: 30px;
+	margin-bottom: 100px;
+}
+.pad-right{
+	padding-right: 125px;
+}
+.details p{
+	margin-bottom: 40px;
+}
+.details a{
+	text-decoration: none;
+	color: gray;
+}
+.comp-work-with{
+	overflow: auto;
+	background-color: silver;
+}
+.title-logos{
+	width: 90vw;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.title-logos h1{
+	margin-top: 100px;
+}
+.title-logos hr{
+	margin-bottom: 100px;
+}
+.row{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.row img{
+	width: 400px;
+	height: 100px;
+}
+
+.lets-talk{
+	overflow: auto;
+	text-align: center;
+	background-color: gray;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+.lets-talk h1{
+	color: white;
+	margin: 0px;
+}
+.lets-talk p{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	margin-bottom: 60px;
+
+}
+.lets-talk a{
+	text-decoration: none;
+	color: gray;
+	background-color: rgb(189, 213, 55);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid green;
+	border-radius: 30px;
+}
+.lets-talk a:hover {
+	background-color: transparent;
+	color: rgb(189, 213, 55);
+}
+
+.footer{
+	height: 5vh;
+}
+.width-fix{
+	font-size: 15px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.left-bar{
+	width: 40%;
+	line-height: 5vh;
+}
+.left-bar p{
+	vertical-align: middle;
+	margin: 0px;
+}
+.left-bar a{
+	text-decoration: none;
+	color: rgb(189, 213, 55);
+}
+.right-bars{
+	width: 40%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	line-height: 5vh;
+}
+.right-bars a{
+	color: gray;
+	margin: 0px;
+	text-decoration: none;
+}
+.right-bars a:hover{
+	color: rgb(189, 213, 55);
+}
+.right-bars p{
+	margin: 0px;
+	vertical-align: middle;
+}
+
+
+
