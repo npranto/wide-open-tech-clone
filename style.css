@@ -226,7 +226,7 @@ header{
 	margin-bottom: 50px;
 }
 .row img{
-	width: 400px;
+	width: 250px;
 	height: 100px;
 }
 
@@ -292,7 +292,7 @@ header{
 }
 .right-bars{
 	overflow: auto;
-	width: 40%;
+	width: 45%;
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
@@ -307,8 +307,8 @@ header{
 	color: rgb(189, 213, 55);
 }
 .right-bars p{
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
 	margin: 0px;
 	vertical-align: middle;
 }
